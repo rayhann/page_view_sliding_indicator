@@ -67,6 +67,7 @@ class _HomePageState extends State<HomePage> {
           PageViewSlidingIndicator(
             pageCount: 3,
             controller: controller,
+            size: 8,
           ),
         ],
       ),

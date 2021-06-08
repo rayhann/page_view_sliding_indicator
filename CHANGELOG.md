@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.2
 
-* This package is to create page view indicator beautifully and easy to use
+* Can custom the size and the border radius value
