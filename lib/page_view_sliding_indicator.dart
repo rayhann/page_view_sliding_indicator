@@ -23,8 +23,6 @@ class PageViewSlidingIndicator extends HookWidget {
     final _currentPage = useState(0);
     final _leftPosition = useState(size / 2);
 
-    print('position ${_leftPosition.value}');
-
     useEffect(() {
       controller.addListener(() {
         if (controller.page != null) {
@@ -53,8 +51,7 @@ class PageViewSlidingIndicator extends HookWidget {
                 borderRadius: BorderRadius.circular(borderRadius),
               ),
             ),
-            separatorBuilder: (BuildContext context, int index) =>
-                SizedBox(
+            separatorBuilder: (BuildContext context, int index) => SizedBox(
               width: size,
             ),
           ),
