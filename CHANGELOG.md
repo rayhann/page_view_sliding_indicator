@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+* This package is to create page view indicator beautifully and easy to use

@@ -1,7 +1,8 @@
 name: page_view_sliding_indicator
-description: A new Flutter package project.
+description: To be able create page view indicator beautifully
 version: 0.0.1
-homepage:
+author: Rayhan Asprilla<rayhanasprillasatria@gmail.com>
+homepage: https://github.com/rayhann/page_view_sliding_indicator.git
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -10,6 +11,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_hooks: ^0.16.0
 
 dev_dependencies:
   flutter_test:
